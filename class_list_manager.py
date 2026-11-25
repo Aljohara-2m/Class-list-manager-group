@@ -13,10 +13,15 @@ def search_name(names, name):
     return False
 
 
+# Written by: Eithar (task 1)
+def count_names(names):
+    return len(names)
 def main():
+
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
-    print("Is Sara in the list?", search_name(names, "Sara"))
+    print("Is Sara in the list?", search_name(names, "Sara")
+    print("Number of names:", count_names(names))
     # Each student calls her function here, for example:
     # print("Number of names:", count_names(names))
 
